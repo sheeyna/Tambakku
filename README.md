@@ -29,7 +29,7 @@ Tidak memerlukan konfigurasi tambahan
 
 🔑 Login & Pendaftaran
 1. Jalankan aplikasi
-2. Masukkan username dan password
+2. Masukkan username dan password (bisa menggunakan akun yang sudah ada yaitu Username: Sabrina dan Password: 1234
 3. Jika belum memiliki akun, klik Sign Up
 4. Setelah login berhasil, pengguna akan masuk ke Dashboard
 
