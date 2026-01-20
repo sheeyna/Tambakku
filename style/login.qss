@@ -1,0 +1,91 @@
+/* ==============================
+   GLOBAL
+============================== */
+QDialog {
+    background-color: #FFFFFF;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    color: #1F1F1F;
+}
+
+/* ==============================
+   LABEL
+============================== */
+QLabel {
+    color: #1F1F1F;
+}
+
+/* Title "WELCOME" */
+QLabel#title,
+QLabel[objectName="title"] {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+/* Text kecil bawah */
+QLabel#hint {
+    color: #6B6B6B;
+    font-size: 12px;
+}
+
+/* ==============================
+   INPUT FIELD
+============================== */
+QLineEdit {
+    background-color: #C7E0E2;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 14px;
+    color: #1F1F1F;
+}
+
+QLineEdit:focus {
+    background-color: #D6EAEC;
+}
+
+/* ==============================
+   BUTTON - PRIMARY (Mulai)
+============================== */
+QPushButton {
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+/* Tombol MULAI */
+QPushButton[text="Mulai"] {
+    background-color: #005461;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+QPushButton[text="Mulai"]:hover {
+    background-color: #006D7C;
+}
+
+QPushButton[text="Mulai"]:pressed {
+    background-color: #00414A;
+}
+
+/* ==============================
+   BUTTON - SECONDARY (Sign Up)
+============================== */
+QPushButton[text="Sign Up"] {
+    background-color: transparent;
+    color: #005461;
+    border: none;
+    font-weight: 500;
+}
+
+QPushButton[text="Sign Up"]:hover {
+    text-decoration: underline;
+}
+
+/* ==============================
+   REMOVE FOCUS OUTLINE
+============================== */
+QPushButton:focus,
+QLineEdit:focus {
+    outline: none;
+}

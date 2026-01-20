@@ -1,0 +1,3 @@
+# Konfigurasi Supabase
+API_URL = "https://jroliikwuowzgcxfolgb.supabase.co"
+API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Impyb2xpaWt3dW93emdjeGZvbGdiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg1NTk1MDEsImV4cCI6MjA4NDEzNTUwMX0.nH5S4fmcLqqdSjv1hTm12dGU2t82mtfUoOumT9w3qkA"

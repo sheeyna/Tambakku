@@ -1,0 +1,167 @@
+/* ======================================================
+   GLOBAL
+====================================================== */
+QMainWindow {
+    background-color: #FFFFFF;
+    font-family: "Segoe UI";
+    font-size: 13px;
+    color: #1F1F1F;
+}
+
+/* ======================================================
+   BUTTON DEFAULT
+====================================================== */
+QPushButton {
+    border: none;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-size: 13px;
+    background-color: #C7E0E2;
+}
+
+QPushButton:hover {
+    opacity: 0.85;
+}
+
+/* ======================================================
+   SIDEBAR BUTTON (KHUSUS)
+====================================================== */
+
+/* Tambahkan Kolam */
+QPushButton[text^="Tambahkan"] {
+    background-color: #8CE4FF;
+}
+
+/* Sortir Ikan */
+QPushButton[text="Sortir Ikan"] {
+    background-color: #249E94;
+    color: white;
+}
+
+/* Hapus Kolam */
+QPushButton[text="Hapus Kolam"] {
+    background-color: #F63049;
+    color: white;
+}
+
+/* Kembali / Logout */
+QPushButton[text="Kembali"],
+QPushButton[text="Logout"] {
+    background-color: #C7E0E2;
+}
+
+/* Ukuran sidebar */
+QPushButton[text^="Tambahkan"],
+QPushButton[text="Sortir Ikan"],
+QPushButton[text="Hapus Kolam"],
+QPushButton[text="Kembali"],
+QPushButton[text="Logout"] {
+    min-height: 20px;  
+    max-width: 180px;
+}
+
+/* ======================================================
+   HEADER BUTTON
+====================================================== */
+
+/* Muat ulang */
+QPushButton[text="muat ulang"] {
+    background-color: #C7E0E2;
+    min-width: 60px;
+    min-height: 20px;
+}
+
+/* Jual */
+QPushButton[text="Jual"] {
+    background-color: #C1E59F;
+    min-width: 60px;
+    min-height: 20px;
+}
+
+/* ======================================================
+   SEARCH BAR
+====================================================== */
+QLineEdit {
+    background-color: #C7E0E2;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 16px;
+    font-size: 13px;
+}
+
+QLineEdit:focus {
+    background-color: #D6EAEC;
+}
+
+/* ======================================================
+   TABLE
+====================================================== */
+QTableWidget {
+    background-color: #EAF4F5;
+    border: none;
+    gridline-color: #D0D0D0;
+}
+
+QHeaderView::section {
+    background-color: transparent;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+}
+
+QTableWidget::item {
+    background-color: #FFFFFF;
+    padding: 8px;
+    border: none;
+}
+
+QTableWidget::item:selected {
+    background-color: #D6EAEC;
+    color: #000000;
+}
+
+/* ======================================================
+   BUTTON DETAIL (AKSI)
+====================================================== */
+QTableWidget QPushButton {
+    background-color: #005461;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 6px 4px;
+    min-width: 72px;
+    height: 40px;
+    font-size: 12px;
+}
+
+QTableWidget QPushButton:hover {
+    background-color: #006D7C;
+}
+
+/* ======================================================
+   DETAIL KOLAM - SIDEBAR BUTTON
+====================================================== */
+
+/* Pindahkan Ikan */
+QPushButton[text="Pindahkan Ikan"] {
+    background-color: #249E94;
+    color: white;
+}
+
+/* Riwayat */
+QPushButton[text="Riwayat"] {
+    background-color: #C7E0E2;
+}
+
+/* Hapus (Detail Kolam) */
+QPushButton[text="Hapus"] {
+    background-color: #F63049;
+    color: white;
+}
+
+/* Ukuran sidebar detail kolam */
+QPushButton[text="Pindahkan Ikan"],
+QPushButton[text="Riwayat"],
+QPushButton[text="Hapus"] {
+    min-height: 20px;
+    border-radius: 12px;
+}
